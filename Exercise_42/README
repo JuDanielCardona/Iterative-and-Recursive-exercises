@@ -1,0 +1,19 @@
+#  Procesamiento de Matrices para Encontrar Menores Multiplicadores
+Este programa procesa una matriz dada para encontrar los menores multiplicadores que, al ser multiplicados por los elementos de la matriz, producen un cuadrado perfecto. Proporciona implementaciones tanto iterativas como recursivas para este procesamiento.
+
+# Funcionalidades
+1. Procesamiento iterativo de la matriz.
+2. Procesamiento recursivo de la matriz.
+3. Determinación de si un número es un cuadrado perfecto.
+4. Búsqueda del menor número que, al ser multiplicado por otro número, produce un cuadrado perfecto.
+5. Impresión de una matriz en la consola.
+
+# Requisitos
+Java Development Kit (JDK) instalado en el sistema.
+
+# Cómo Usar
+1. Clona este repositorio en tu máquina local o descarga el archivo ZIP y extráelo.
+
+2. Abre una terminal o línea de comandos y navega hasta el directorio donde se encuentra el código fuente (Main.java).
+
+3. Compila el programa ejecutandolo en tu entorno de desarrollo o su maquina virtual de Java.

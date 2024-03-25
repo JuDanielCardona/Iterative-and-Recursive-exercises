@@ -1,0 +1,21 @@
+
+# Generador de Matrices en Espiral
+Este programa en Java genera matrices en espiral utilizando enfoques iterativos y recursivos. La matriz resultante se imprime en la consola junto con los tiempos de ejecución de cada enfoque.
+
+# Requisitos
+Java Development Kit (JDK) instalado en tu sistema.
+
+# Cómo Usar
+1. Clona este repositorio en tu máquina local o descarga el archivo ZIP y extráelo.
+
+2. Abre una terminal o línea de comandos y navega hasta el directorio donde se encuentra el código fuente (Main.java).
+
+3. Compila el programa ejecutandolo en tu entorno de desarrollo o su maquina virtual de Java.
+
+4. El programa generará y mostrará la matriz en espiral, junto con los tiempos de ejecución de los enfoques iterativos y recursivos.
+
+# Detalles de Implementación
+El método fillSpiral_recursive utiliza un enfoque recursivo para llenar la matriz en espiral.
+El método fillSpiral_iterative utiliza un enfoque iterativo para llenar la matriz en espiral.
+La clase Main contiene el método main que controla el flujo principal del programa y muestra los resultados en la consola.
+Se utiliza la clase JOptionPane para solicitar al usuario el tamaño de la matriz mediante un cuadro de diálogo.

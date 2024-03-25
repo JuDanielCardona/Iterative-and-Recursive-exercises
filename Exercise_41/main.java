@@ -1,19 +1,16 @@
-package Iterative_Recursive_Algorithms.Exercise_41;
-
-import javax.swing.JOptionPane;
-
 /**
- * EJERCICIO DE EJECUCIÓN 4.1
- * La clase principal contiene métodos para generar matrices en espiral utilizando enfoques iterativos y recursivos.
+ *  Ejecicio 4.1
+ *  Presentado por: 
+ *                  Juan Daniel Cardona Urbano
+ *                  Juan Esteban Mosquera Zapata
+ *                  Juan Alejandro Brito
+ * 
+ *  El método principal del programa que solicita al usuario el tamaño de la matriz, genera matrices en espiral
+ *  utilizando enfoques iterativos y recursivos, y muestra los tiempos de ejecución de ambos en pantalla.
  */
+package Exercise_41;
+import javax.swing.JOptionPane;
 public class main {
-
-    /**
-     * El método principal del programa que solicita al usuario el tamaño de la matriz, genera matrices en espiral
-     * utilizando enfoques iterativos y recursivos, y muestra los tiempos de ejecución de ambos en pantalla.
-     *
-     * @param args Argumentos de la línea de comandos (no utilizados en este programa)
-     */
     public static void main(String[] args) {
         // Variables para el tamaño de la matriz, la matriz generada de forma iterativa y la temporización
         int n = 0;

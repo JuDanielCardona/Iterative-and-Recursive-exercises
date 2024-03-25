@@ -1,0 +1,18 @@
+# Validador de Juegos de Palabras
+Este programa implementa dos métodos para validar un juego de palabras basado en la concatenación de sílabas. Uno de los métodos utiliza un enfoque iterativo mientras que el otro utiliza un enfoque recursivo.
+
+# Descripción
+El juego de palabras consiste en una matriz de palabras donde cada palabra comparte la última sílaba con la siguiente palabra en la misma fila o la primera palabra en la siguiente fila. El objetivo es verificar si todas las sílabas coinciden correctamente según esta regla.
+
+# Características
+1. Validación Iterativa: Este método recorre la matriz de palabras de manera iterativa y compara las sílabas para verificar la validez del juego de palabras.
+2. Validación Recursiva: Este método utiliza una función recursiva para validar el juego de palabras, facilitando así la comprensión del proceso de validación.
+
+# Cómo Usar
+1. Clona este repositorio en tu máquina local o descarga el archivo ZIP y extráelo.
+
+2. Abre una terminal o línea de comandos y navega hasta el directorio donde se encuentra el código fuente (Main.java).
+
+3. Compila el programa ejecutandolo en tu entorno de desarrollo o su maquina virtual de Java.
+
+4. El programa generará y mostrará la matriz en espiral, junto con los tiempos de ejecución de los enfoques iterativos y recursivos.

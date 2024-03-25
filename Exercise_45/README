@@ -1,0 +1,18 @@
+# Polidivisibles
+Este programa encuentra los números polidivisibles en una matriz de enteros y calcula sus tiempos de ejecución tanto de forma iterativa como recursiva.
+
+# Requisitos
+Java Development Kit (JDK) instalado en tu sistema.
+Un entorno de desarrollo Java compatible.
+
+# Cómo Usar
+1. Clona este repositorio en tu máquina local o descarga el archivo ZIP y extráelo.
+
+2. Abre una terminal o línea de comandos y navega hasta el directorio donde se encuentra el código fuente (Main.java).
+
+3. Compila el programa ejecutandolo en tu entorno de desarrollo o su maquina virtual de Java.
+
+# Funcionalidades
+Verificación de Polidivisibilidad: El programa verifica si un número es polidivisible tanto de forma iterativa como recursiva.
+Obtención de Polidivisibles: Encuentra los números polidivisibles en una matriz de enteros utilizando los métodos iterativo y recursivo.
+Medición de Tiempo de Ejecución: Calcula los tiempos de ejecución de las soluciones iterativa y recursiva.

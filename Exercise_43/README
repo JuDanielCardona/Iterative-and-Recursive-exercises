@@ -1,0 +1,34 @@
+# Verificación de similitud entre palabras en una matriz
+Este programa evalúa la similitud entre pares de palabras en una matriz y calcula el tiempo de ejecución tanto para una solución iterativa como recursiva.
+
+Cada fila de la matriz contiene dos palabras. Dos palabras se consideran similares si tienen la misma longitud y los caracteres de una palabra están contenidos en la otra, sin importar el orden de los caracteres.
+
+# Uso
+El programa se ejecuta desde la clase main. En el método main, se define una matriz de pares de palabras y se calcula la similitud entre ellas, tanto de manera iterativa como recursiva. Se muestra el resultado de cada solución junto con el tiempo de ejecución en milisegundos y nanosegundos.
+
+# Funciones principales
+sonSimilares(String palabra1, String palabra2, boolean esRecursivo): Verifica si dos palabras son similares. Toma dos palabras y un booleano que indica si se debe utilizar la solución recursiva o iterativa.
+
+filasPalabrasSimilares(String[][] matriz, boolean esRecursivo): Encuentra las posiciones de las filas con palabras similares en la matriz. Toma una matriz de pares de palabras y un booleano que indica si se debe utilizar la solución recursiva o iterativa.
+
+# Funciones auxiliares
+verificarSimilitudRecursivo(String palabra1, char[] palabra2, int indice): Función auxiliar recursiva para verificar la similitud de palabras.
+
+verificarSimilitudIterativo(String palabra1, char[] palabra2): Función auxiliar iterativa para verificar la similitud de palabras.
+
+# Ejemplo de matriz de entrada
+
+String[][] matriz = {
+    {"cama", "acma"},   // 0
+    {"oso", "rosa"},    // 1
+    {"tela", "late"},   // 2
+    {"amor", "roma"},   // 3
+    {"gato", "toga"},   // 4
+    {"perro", "roppet"}, // 5
+    {"hola", "aloh"},   // 6
+    {"auto", "tuna"},   // 7
+    {"calle", "lelac"}, // 8
+    {"abeja", "ajeba"}  // 9
+};
+
+Cada fila de la matriz contiene dos palabras que se comparan para verificar su similitud.
